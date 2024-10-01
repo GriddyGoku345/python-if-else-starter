@@ -1,0 +1,33 @@
+#Isaac Bissonette
+#10/1/24
+
+#Task 1
+
+
+
+
+
+#Task 2
+alien_color = 'green'
+if alien_color == 'green':
+    print('you earned 5 points!')
+if alien_color == 'yellow':
+    print('you earned 10 points!')
+if alien_color == 'red':
+    print('you earned 15 points!')
+
+#Task 3
+first_name = input('first name: ')
+if len(first_name) <= 5:
+    print('your name is too short')
+else:
+    print('you have a long name')
+
+#Task 4
+letter = input('enter a letter: ')
+lower = letter.lower()
+vowels = ['a', 'e', 'i', 'o', 'u']
+if lower in vowels:
+    print('this letter is a vowel')
+else:
+    print('this letter is a constant')
